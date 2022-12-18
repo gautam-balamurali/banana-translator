@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
     <title>banana-translator</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="header"><h1>Banana Translator</h1></header>
+
+    <section class="section">
+      <div class="container minions">
+        <img src="/images/minions_characters.png" />
+      </div>
+      <div id="app-desc">
+        Translator to convert english to banana language. This language is
+        spoken by the minions in Despicable Me.
+      </div>
+      <textarea
+        id="txt-input"
+        placeholder="Please type in your text here so that our Banana Translator can do the magic..."
+      ></textarea>
+      <button id="btn-translate">Translate To Banana Language</button>
+      <div>Output will be displayed here 👇</div>
+      <div id="output"></div>
+    </section>
+
+    <footer class="footer container-fluid">
+      <div class="container-footer">
+        <div class="heading">Social Media Presence</div>
+        <ul class="unordered list-inline">
+          <li>
+            <a
+              class="link"
+              target="_blank"
+              href="https://github.com/gautam-balamurali"
+            >
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a
+              class="link"
+              target="_blank"
+              href="https://www.linkedin.com/in/gautam-balamurali"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              class="link"
+              target="_blank"
+              href="https://twitter.com/codewithash"
+            >
+              Twitter
+            </a>
+          </li>
+        </ul>
+        <div id="copyrt-txt"></div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
 </html>
