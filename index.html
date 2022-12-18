@@ -9,13 +9,60 @@
   </head>
   <body>
     <header class="header"><h1>Banana Translator</h1></header>
+
     <section class="section">
-      <p>Translator to convert english to banana language.</p>
-      <textarea id="txt-input"></textarea>
-      <button id="btn-translate">Translate to banana language</button>
+      <div class="container minions">
+        <img src="/images/minions_characters.png" />
+      </div>
+      <div id="app-desc">
+        Translator to convert english to banana language. This language is
+        spoken by the minions in Despicable Me.
+      </div>
+      <textarea
+        id="txt-input"
+        placeholder="Please type in your text here so that our Banana Translator can do the magic..."
+      ></textarea>
+      <button id="btn-translate">Translate To Banana Language</button>
+      <div>Output will be displayed here 👇</div>
       <div id="output"></div>
     </section>
-    <footer></footer>
+
+    <footer class="footer container-fluid">
+      <div class="container-footer">
+        <div class="heading">Social Media Presence</div>
+        <ul class="unordered list-inline">
+          <li>
+            <a
+              class="link"
+              target="_blank"
+              href="https://github.com/gautam-balamurali"
+            >
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a
+              class="link"
+              target="_blank"
+              href="https://www.linkedin.com/in/gautam-balamurali"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              class="link"
+              target="_blank"
+              href="https://twitter.com/codewithash"
+            >
+              Twitter
+            </a>
+          </li>
+        </ul>
+        <div id="copyrt-txt"></div>
+      </div>
+    </footer>
+
     <script src="app.js"></script>
   </body>
 </html>
