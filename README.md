@@ -15,6 +15,7 @@ o/p: mi nomba tis gautam
 * HTML
 * CSS
 * JavaScript
+* Netlify
 
 # Preview
 
