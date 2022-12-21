@@ -10,7 +10,7 @@ o/p: mi nomba tis gautam
 
 ![image](https://user-images.githubusercontent.com/27736288/208899018-8cba11ed-af4d-43e1-b77c-c90c37dbf622.png)
 
-#Tech Stack
+# Tech Stack
 
 * HTML
 * CSS
