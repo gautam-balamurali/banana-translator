@@ -1,6 +1,7 @@
 # banana-translator
 
-Translator that converts english to banana language. This language is spoken by the minions in Despicable Me movie.
+* Translator that converts english to banana language. 
+* This language is spoken by the minions in Despicable Me movie.
 
 # Sample input/output
 
